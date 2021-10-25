@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="js/index.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" ></script>
+    <script src="js/typed.min.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">PORTF<span>OLIO</span></div>
+            <div class="menu">
+                <a href="#"> Home</a>
+                <a href="#"> About</a>
+                <a href="#"> Skills</a>
+                <a href="#"> Services</a>
+                <a href="#"> Contact</a>
+            </div>
+        </nav>
+        <div class="text">
+            <p>Hello, I am</p>
+            <h1>Sachchitanand</h1>
+            <p>And I am a Software Developer:Fresher <span id="ani" style="color: #e74c3c;"></span></p>
+            <button class="c-btn"> Hire me</button>
+        </div>
+       
+    </header>
+    <section id="about">
+        <div class="section-info">
+            <h1>About</h1>
+            <p>Who I am?</p>
+        </div>
+        <div class="about-row">
+            <div class="about-left-col">
+                <img src="Images/DSC_4242.JPG">
+            </div>
+            <div class="about-right-col">
+                <p id="p-title">
+                    Hello, I am Sachchitanand & About my self
+                </p>
+                <p>My name is Sachchitanand.I am from Gorakhpur,
+                    I born & brought up in Gorakhpur(Uttar Pradesh).
+                    Coming to my
+                qualification,I have completed my B.Tech from Maharan Pratap Engineering College (Kanpur)
+                .And I have completed my
+                Schooling from (SKIC)Gorakhpur.Coming to my family,
+                There are four member in my family including me.Me and Parents and
+                one younger brother.Coming to my hobby, 
+                My hobby is watching youtbe video and Learning new thing.Coming to my
+                Strength,My strength is Positive Attitude and hard working.
+                Thank You</p>
+              <!--  <button class="c-btn">Download CV</button> -->
+            <button class="c-btn"> <a href="resume.html"> Download CV</a></button>
+              
+            </div>
+        </div>
+    </section>
+    <section id="skills">
+        <div class="section-info">
+            <h1 style="color: white;">Skills</h1>t</h1>
+            <p>Who I am?</p>
+            </div>
+            <div class="skills-row">
+                <div class="skills-left-col">
+                    <p>
+                        I have learned Html and Css.And I have also learned JavaScript and ReactJs.
+                        But JavaScript and ReactJs is not complete.
+                        I am Learning core java & JavaScript and ReactJs completely.
+                    </p>
+                    <button class="c-btn"> Read More</button>
+                </div>
+                <div class="skills-right-col">
+                    <div class="progress-div">
+                        <p>
+                            <span>HTML,CSS</span>
+                            <progress value="90" max="100"></progress>
+                            <span>90%</span>
+                        </p>
+                       
+                        <p>
+                            <span>JavaScript</span>
+                            <progress value="65" max="100"></progress>
+                            <span>65%</span>
+                        </p>
+                        <p>
+                            <span>ReactJs</span>
+                            <progress value="65" max="100"></progress>
+                            <span>65%</span>
+                        </p>
+                        <p>
+                            <span>CoreJava</span>
+                            <progress value="50" max="100"></progress>
+                            <span>50%</span>
+                        </p>
+                        
+
+                    </div>
+                </div>
+            </div>
+
+    </section>
+    <section id="services">
+    <div class="section-info">
+        <h1>Services</h1>
+        <p>What we provide</p>
+        </div>
+        <div class="services-row">
+            <div class="services-box">
+                <img src="Images/b2.png" alt="">
+                <h2>Web Design</h2>
+                <p>
+                    I am a Web Designer. And I can design very atractive web pages.
+                    We use to Html for creating pages but we use CSS for designing the pages.
+                    And We can also use JavaScript for designing pages.
+                </p>
+            </div>
+            <div class="services-box">
+                <img src="Images/b2.png" alt="">
+                <h2>Web Development</h2>
+                <p>
+                    I am a Web Developer. And I can developed every type of web pages.
+                    We use to Html JavaScript and ReactJs.
+
+                </p>
+            </div>
+            
+        </div>
+
+    </section>
+    <section id="contact">
+        <div class="section-info" style="color: white;">
+            <h1>Ge In Touch</h1>
+            <p style="color: black;">We are available</p>
+        </div>
+        <div class="contact-row">
+            <div class="contact-left-col">
+                <img src="Images/b3.png" alt="">
+            </div>
+            <div class="contact-right-col">
+                <form>
+                    <h2>Connect with us</h2>
+                    <input type="text" name="" placeholder="Name">
+                    <input type="email" name="" placeholder="E-mail">
+                    <br>
+                    <textarea cols="30" rows="10" placeholder="Message"></textarea>
+                    <br>
+                    <button class="c-btn">Submit</button>
+                </form>
+            </div>
+        </div>
+
+    </section>
+    <section id="footer">
+        <h2>Developed by Sachchitanand</h2>
+        <img src="Images/icon (1).png" width="100">
+    </section>
+   <script src="js/jquery.ripples-min.js"></script>
+   <script>
+       jQuery(document).ready(function(){
+       $('header').ripples({
+            dropRadius: 20,
+            perturbance: 0.03,
+});
+       });
+   </script>
+   
+     <!--  <script>
+        let animate= new Typed('#ani',{
+            String:["Front End Developer","Web Designer","Software Developer:Fresher"],
+            typedSpeed:100,
+            backSpeed:150,
+            loop:false,
+        })
+    </script> -->
+
+
+</body>
+</html>
